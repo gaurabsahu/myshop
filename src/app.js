@@ -29,12 +29,13 @@ var unless = function(path, middleware) {
     };
 };
 
-app.use(unless('/validateCred',GenerateJwtToken.validateToken));
+//app.use(unless('/validateCred',GenerateJwtToken.validateToken));
 
 app.route('/validateCred').post(Authentication.authenticate);
 
 app.route('/getDetail').get(function(req, res){
-  res.send("5rs");
+
+  res.send("hi Gaurab");
 });
 
 //server configuration

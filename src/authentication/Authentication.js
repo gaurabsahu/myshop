@@ -30,19 +30,4 @@ Authentication.authenticate = function(req, res) {
 
 };
 
-//basic operation end points
-
-
-// app.get('/getDetail', function(req, res) {
-//   res.send("get details");
-// });
-//
-// app.post('/postItem', function(req, res) {
-//   res.send('post Request');
-// });
-//
-// app.delete('/deleteItem', function(req, res) {
-//   res.send('DELETE Request');
-//});
-
 module.exports = Authentication;
